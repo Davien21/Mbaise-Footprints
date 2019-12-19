@@ -1,0 +1,171 @@
+body {
+	background-size: cover;
+	background-color: #723F78;
+	letter-spacing: 1px;
+	font-family: Goudy Old Style;
+	font-weight: bold;
+}
+.header {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding : 0;
+	color: white;
+	font-family: Courier New;
+}
+.full-hr {
+	padding: 0;
+	margin: 0;
+	height: 2px;
+	width: 95%;
+	background-color: #000;
+}
+label.absolute {
+	cursor: pointer;
+	top: 40%;
+	left: 35%;
+	font-size: 1.3em;
+	font-family: cursive;
+	color: #fff;
+	letter-spacing: normal;
+	padding: 0;
+	margin: 0;
+}
+label {
+	font-size: 1.1em;
+}
+img {
+	width: 100%;
+	min-height: 535px;
+	/*max-height: 675px; 	*/
+}
+#img-div {
+}
+input {
+	background-color: transparent;
+	height: 25px;
+	border:none;
+	border-bottom: 1px solid #88CE2B;
+	width: 100%;
+}
+.form-header {
+	font-weight: bold;
+	font-family: Arial;
+}
+hr.register {
+	max-width: 130px !important	;
+	margin-top: -1px !important;
+	padding: 0;
+	margin: 0;
+	height: 2px;
+	background-color: #000;
+}
+.acknowledgment-slip {
+	/*height: 547.4px;*/
+}
+
+.info-labels {
+	font-family: Courier New;
+	font-size: 1em;
+	font-weight: bold;
+	color: #558E08;
+}
+.info {
+	font-family: Courier New;
+	/*word-break: break-all;*/
+	overflow: auto;
+	color: #000;
+}
+.error-header {
+	font-size: 1.2em;
+	color: red;
+	width: 100%	;
+}
+.error-info {
+	font-size: 1.1em;
+}
+
+.error-ref {
+	border-bottom: 2px solid red;
+}
+
+.login-div {
+	/*font-size: 0.7em;*/
+	right: 0;
+}
+.login-btn {
+	font-size: 0.8em;
+}
+.logout-btn {
+	font-size: 0.95em;
+	font-family: Arial;
+
+}
+.logged_user {
+	border-bottom: 2px solid #88CE2B;
+	font-family: Goudy Old Style;
+	font-weight: normal;
+}
+.welcome-text {
+	font-family: Goudy Old Style;
+}
+.hello-text {
+	font-family: Arial;
+
+}
+.edit-hr {
+	padding: 0;
+	margin: 0;
+	margin-top: -5px;
+	height: 2px;
+	width: 95%;
+	background-color: #000;
+}
+.details-header {
+	font-family: Arial;
+}
+.db-operations {
+	font-family: Courier;
+
+}
+.edit-inputs {
+	font-family: Courier;
+}
+.change-pass {
+	font-family: Arial;
+	
+}
+.arial {
+	font-family: Arial;
+	
+}
+
+.update-record {
+	font-family: Arial;
+
+}
+.password-change-div{
+	display: none;	
+}
+.title{
+	/*font-weight: bold;*/
+}
+.helvetica {
+	font-family: helvetica;
+}
+
+.no-word-wrap {
+	white-space: nowrap;
+}
+.courier {
+	font-family: Courier new;
+
+}
+
+.special-scroll {
+	/*scroll-behavior: smooth;*/
+	/*overflow-x: scroll;*/
+
+}
+.all-interns td,.all-interns th {
+	vertical-align: middle;
+}

@@ -1,0 +1,184 @@
+body {
+
+	
+}
+
+.about-div p {
+	padding: 0;
+	margin: 0;
+}
+.bg-gradient {
+	background: linear-gradient(90deg,rgba(119, 232, 214) 5%, 
+		rgba(158, 173, 228)), no-repeat center; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+}
+.welcome-text {
+	/*font-weight: 550;*/
+	font-size: 1.4em;
+} 
+.blue-btns {
+	color: white;
+	background-color: #5FC3C3;
+	border-color: transparent;
+	/*font-weight: bolder;*/
+}
+.brand-span {
+	font-weight: bold;
+	display: inline-block;
+}
+ul.navbar-nav li a:hover{
+	color: orange !important;
+	/*display: none;*/
+}
+input {
+	background-color: transparent;
+	height: 25px;
+	border:none;
+	border-bottom: 1px solid  #B3E5EC;
+
+	width: 100%;
+}
+
+.btn-orange-2:hover {
+	color: #fff;
+	background-color: #FF6200;
+	background-color: #F86200;
+	background-color: #F86E00;
+	border-color: #FF6200;
+}
+@keyframes loop_color {
+	0%{color: red;}
+	50%{color: orange;}
+	100%{color: red;}
+}
+label {
+	margin-bottom: 5px;
+}
+.close-x {
+	cursor: pointer;
+	top: 3px;
+	right: 5%;
+	font-size: 1.05em;	
+	/*bottom: 15px;*/
+	color: red;
+	text-shadow: 0 0 3px black;
+	/*border: 1px solid white;*/
+
+
+}
+.alert-navy-blue {
+	color: #fff;
+	background-color: #307597;
+	border-color: #c6c8ca;
+}
+.thank-you-text {
+	font-size: 1.3em;	
+	
+}
+
+hr.underline-orange {
+	background-color: #FF9800;
+	padding: 0;
+	margin: 0;
+	height: 2px;
+}
+.thanks-note {
+	/*position: absolute;
+	top: -47px;
+	width: 100%;*/
+
+}
+.job-name {
+	text-transform: capitalize;
+	color: red;
+}
+
+.courier {
+	font-family: Courier New;
+}
+
+.arial {
+	font-family: Arial;
+}
+.goudy {
+	font-family: Goudy Old Style;
+}
+.cursive {
+	font-family: cursive;
+}
+.brand-span :first-child {
+	/*font-size: 1.2em;*/
+}
+.brand-span :last-child {
+	font-style: italic;
+}
+#section-1 {
+	min-height: 650px;
+	color: white;
+	text-shadow: 0 0 1px black;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+		url(../imgs/dance-2.jpg) no-repeat center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#section-1 div div {
+	font-size: 1.05em;
+	line-height: 2em;
+}
+@media screen and (min-width:992px) {
+	.dance-img {
+		height: 232px !important;
+	}
+	.music-img {
+		height: 232px !important;
+		
+	}
+}
+@media screen and (min-width:768px) {
+	.dance-img {
+		height: 331px;
+	}
+	.music-img {
+		height: 331px;
+		
+	}
+}
+@media screen and (min-width:576px) {
+	.dance-img {
+		height: 330px;
+	}
+	.music-img {
+		height: 330px;
+		
+	}
+}
+button {
+
+}
+.shiny-box-alt {
+	box-shadow:  1px 2px 3px 2px rgba(0,0,121,0.2);
+}
+#section-3 p{
+	line-height: 0.5em;
+}
+#section-3 img{
+	min-height: 290px;
+	max-height: 290px;
+}
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#section-4 div div p{
+	margin: 0;
+}
+.institutions-header {
+	font-size: 2em;
+	color: red;
+}

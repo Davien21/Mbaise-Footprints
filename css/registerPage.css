@@ -1,0 +1,389 @@
+body {
+background-size: cover;
+background-color: #723F78;
+	letter-spacing: 1px;
+	font-family: Goudy Old Style;
+	font-weight: bold;
+}
+.flex {
+	display: flex;
+}
+.flex_column {
+	display: flex;
+	flex-direction: column;
+}
+.center {
+	margin: auto;
+}
+.flex-wrap {
+	display: flex;
+	flex-flow: wrap;
+}
+.text-center {
+	text-align: center;
+	text-transform: uppercase;
+}
+.box-shadow3 {
+	box-shadow: 2px 2px 2px 2px rgba(255, 250, 252, 0.01); 
+}
+.shiny-box {
+	box-shadow: 4px 8px 15px 1px rgba(0,0,121,0.2);
+}
+.btn-pop {
+	text-shadow: 1px 10px 20px black;
+}
+
+div.headerDiv h1 {
+	height: 10%;
+	padding : 0;
+	color: white;
+	font-family: Courier New
+}
+section.mainSection {
+	margin: auto;
+	margin-top: -10px;
+}
+div.picDiv {
+	width: 53%;
+
+	position: relative;
+}
+img.displayPic {
+	width: 545px;
+	height: 580px;
+}
+label[for=picInput] {
+	cursor: pointer;
+}
+label.imageLabel :first-child{
+	margin: auto;
+	color: #fff;
+	display: block;
+}
+label.imageLabel {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	font-size: 1.3em;
+	font-family: cursive;
+	color: #fff;
+	letter-spacing: normal;
+}
+input[id="picInput"] {
+	display: none;
+}
+div.formDiv {
+	box-sizing: border-box;
+	background-color: #fff;
+	width: 47%;
+	position: relative;
+}
+div.specialDiv {
+	position: absolute;
+	top: 13px;
+	left: 30px;
+}
+span.animatedSpan {
+	font-family: Arial Rounded MT Bold;
+	font-weight: lighter;
+	text-decoration: underline;
+	letter-spacing: normal;
+}
+form.studentsForm {
+	margin-top: 10px;
+	width: 100%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+div.detailRows {
+	display: flex;
+	margin-bottom: 20px;
+	position: relative;
+	justify-content: space-between;
+}
+span.errorMessages {
+	color: red;
+	font-family: helvetica;
+	font-size: 12px;
+	display: none;
+	
+}
+div.row2 span.column2 input{
+	margin-left: 0;
+	padding: 0;
+}
+
+div.detailRows:nth-child(2) span.column2 input{
+	height: 10px;
+	margin: 5px 6px 5px 1px;
+	width: 20px;
+}
+div.detailRows>:nth-child(2) span.column2 span{
+	font-size: 1.18em;
+	margin-top: 5px;
+}
+span.columnWide {
+	width: 99.2%;
+}
+div.detailRows span.columnWide input{ 
+	width: 99%;
+}
+div.detailRows span input{
+	background-color: transparent;
+	height: 25px;
+	border: none;
+	border-bottom: 1px solid #88CE2B;
+}
+div.detailRows span label {
+	/*display: block;*/
+	font-size: 1.2em;
+
+}
+form.studentsForm button {
+	background-color: #4373D9;
+	color: white;
+	padding: 10px 30px;
+	font-family: helvetica;
+	border: none;
+	border-radius: 3px;
+}
+div.registerOutputDiv {
+	box-sizing: border-box;
+	margin-top: 8%;
+	padding-left: 40px;
+	font-size: 1.1em;
+	font-family: Courier;
+	color: #000;
+
+}
+div.registerOutputDiv span:first-child{
+	/*position: absolute;*/
+	margin-top: 0;
+	height: 30px;
+	/*top: 10px;*/
+	color: black;
+}
+div.registerOutputDiv span.detailsHead{
+	/*position: absolute;*/
+	/*width: 100%;*/
+	/*top: -10px;*/
+	/*margin-bottom: 40px;*/
+	color: blue;
+}
+div.registerOutputDiv span{
+	width: 100%;
+	display: block;
+	margin-top: 1%;
+}
+div.registerOutputDiv span:nth-child(n+3){
+	/*position: absolute;*/
+	width: 100%;
+	margin-top: 5%;
+	/*color: yellow;*/
+}
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+	section.mainSection {
+		flex-wrap: wrap;
+
+	}
+	.picDiv {
+		/*background-color: red;*/
+		margin: auto;
+		margin-bottom: 60px;
+	}
+	img.displayPic {
+		display: none;
+		
+	}
+	div.specialDiv {
+		position: absolute;
+		top: 13px;
+		left: 30px;
+	}
+	span.animatedSpan {
+		font-family: Arial Rounded MT Bold;
+		font-size: 1.4em;
+		font-weight: lighter;
+		text-decoration: underline;
+		letter-spacing: normal;
+}
+	div.formDiv {
+		border-radius: 8px;
+		box-shadow: 0px 4px 14px 10px rgba(255, 250, 252, 0.3);
+		flex-basis: 100%;
+		margin: auto;
+	}
+	div.registerOutputDiv {
+	position: relative;
+	top: 45px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	padding-left: 40px;
+	font-size: 1.1em;
+	font-family: Courier;
+
+}
+div.registerOutputDiv span:first-child{
+	height: 30px;
+	color: black;
+}
+div.registerOutputDiv span.detailsHead{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color:green;
+}
+div.registerOutputDiv span:nth-child(n+3){
+	width: 100%;
+	display: block;
+	margin-top: 5%;
+}
+	form.studentsForm {
+		position: relative;
+		top: 15px;
+		height: 100%;
+		font-size: 1.3em;
+	}
+	span.column1, span.column2 {
+		width: 40%;
+		font-size: 0.8em;
+		margin-top: 20px;
+	}
+	div.detailRows:first-child {
+		margin-top: 10px;
+	}
+	div.detailRows span input{
+		background-color: transparent;
+		margin-right: 20px;
+		width: 100%;
+		height: 25px;
+		border: none;
+		border-bottom: 1px solid #88CE2B;
+	}
+	span.errorMessages {
+	color: red;
+	font-family: helvetica;
+	font-size: 12px;
+	display: none;
+	
+	}
+	span.errorMessages.genderErr{
+		font-size: 12px;
+		width: 200px;
+	}
+	
+	span.genderSpan {
+		height: 30px;
+	}
+
+	div.row2 .column2 {
+		margin-left: -13px
+	}
+}
+@media only screen and (max-width: 600px) {
+	main.flex_column {
+		display: block;
+	}
+	div.headerDiv h1 {
+		width: 100%;
+	}
+	section.mainSection {
+		margin: auto;
+		display: block;
+		flex-wrap: wrap;
+		padding: 5%;
+	}
+	div.picDiv {
+		width: 250px;
+		height: 250px;
+	}
+	.picDiv {
+		position: relative;
+		border: dashed white;
+		height: 190px;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	img.displayPic {
+		width: 250px;
+		height: 250px;
+	}
+	label.imageLabel {
+		position: absolute;
+		top: 40%;
+		left: 0%;
+		text-align: center;
+		display: block;
+		width: 100%;
+		font-size: 1.1em;
+		font-family: cursive;
+		color: #fff;
+}
+	label.imageLabel span{
+		display: block;	
+}
+	span.animatedSpan {
+		font-family: Arial Rounded MT Bold;
+		font-size: 1.4em;
+		font-weight: lighter;
+		text-decoration: underline;
+		letter-spacing: normal;
+}
+	div.formDiv {
+		border-radius: 8px;
+		box-shadow: 0px 4px 14px 10px rgba(255, 250, 252, 0.3);
+		margin: auto;
+		width: 100%;
+	}
+	form.studentsForm {
+		display: flex;
+		flex-flow: wrap;
+		width: 100%;
+		position: relative;
+		top: 15px;
+		height: 100%;
+		font-size: 3.7vw;
+	}
+	span.column1, span.column2 {
+		width: 40%;
+		margin-top: 20px;
+	}
+	div.detailRows:first-child {
+		display: flex;
+		flex-flow: wrap;
+		margin-top: 10px;
+	}
+	div.detailRows:nth-child(2) {
+		width: 100%;
+	}
+	div.detailRows:nth-child(5) {
+		width: 100%;
+	}
+	div.detailRows:nth-child(4) span.column1 {
+		width: 45%;
+	}
+	div.detailRows:nth-child(6) span.column2 {
+		width: 48%;
+	}
+	div.detailRows span input{
+		background-color: transparent;
+		margin-right: 20px;
+		width: 100%;
+		height: 25px;
+		border: none;
+		border-bottom: 1px solid #88CE2B;
+	}
+	span.genderSpan {
+		height: 30px;
+	}
+		span.radio label{
+	display: block;
+}
+span.radio input:nth-child(2){
+	display: block;
+	color: red;
+}
+	div.row2 .column2 {
+		margin-left: -13px
+	}
+}
