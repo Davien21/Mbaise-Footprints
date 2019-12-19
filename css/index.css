@@ -167,12 +167,13 @@ button {
 	/*line-height: 0.5em;*/
 }
 #section-3 img{
-	min-height: 290px;
-	max-height: 290px;
+	cursor: pointer;
+	height: 290px;
+	/*max-height: 290px;*/
 }
 ul, li {
-	list-style: none;
-	padding: 0;
+	/*list-style: none;*/
+	/*padding: 0;*/
 	margin: 0;
 }
 #section-4 div div p{
@@ -180,5 +181,10 @@ ul, li {
 }
 .institutions-header {
 	font-size: 2em;
-	color: red;
+	/*color: red;*/
+}
+li {
+	list-style-type: square;
+
+	padding-bottom: 10px;
 }
