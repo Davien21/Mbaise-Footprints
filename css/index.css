@@ -183,7 +183,7 @@ ul, li {
 	font-size: 2em;
 	/*color: red;*/
 }
-li {
+#section-4 li {
 	list-style-type: square;
 
 	padding-bottom: 10px;
