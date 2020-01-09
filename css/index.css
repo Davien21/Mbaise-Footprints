@@ -138,6 +138,10 @@ hr.underline-orange {
 		height: 232px !important;
 		
 	}
+	.yam-img {
+		height: 232px !important;
+		
+	}
 }
 @media screen and (min-width:768px) {
 	.dance-img {
@@ -147,6 +151,10 @@ hr.underline-orange {
 		height: 331px;
 		
 	}
+	.yam-img {
+		height: 232px !important;
+		
+	}
 }
 @media screen and (min-width:576px) {
 	.dance-img {
@@ -154,6 +162,10 @@ hr.underline-orange {
 	}
 	.music-img {
 		height: 330px;
+		
+	}
+	.yam-img {
+		height: 232px !important;
 		
 	}
 }
